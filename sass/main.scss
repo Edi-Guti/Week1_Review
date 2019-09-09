@@ -1,0 +1,18 @@
+// adding some css variables
+$global-bg-color: blue;
+$global-bg-color: white;
+
+body { background-color: $global-bg-color; }
+
+nav {
+    background-color: orange;
+
+    ul{
+        margin: 0;
+        padding: 0;
+
+        li { display: inline; }
+    }
+
+    a { text-decoration: none; }
+}
